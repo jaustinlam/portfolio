@@ -3,21 +3,25 @@ body{
     font-family: 'Scope One', serif;
     position: relative;
 }
+
 h2{
     font-size: 2em;
     color: white;
     text-align: center;
 }
+
 h3{
     font-size: 4em;
     color: white;
 }
+
 a{
     color: inherit;
 }
 
 /*Classes*/
 
+/*row formatting*/
 .row100{
     padding-bottom: 20%;
 }
@@ -27,36 +31,25 @@ a{
     padding-bottom: 20%;
 }
 
+/*sections*/
 .project, .contact, .skills, .blog{
     margin-top: 10%;
     text-align: center;
 }
 
-.glyphicon-envelope{
-    color: inherit;
-    font-size: 6em;
-    display: block;
-    text-align: center;
-}
-
-#myCarousel{
-    max-width: 1080px;
-    height: 100%;
-    margin-left: auto;
-    margin-right: auto;
-}
-.fa::before{
-    font-size: 2em;
-    margin: 10px;
-}
-
-#nav_logo{
+/*navigation bar */
+#nav-logo{
     height: 50px;
     margin-right: 10px;
 }
 
 
-/*id's*/
+/*main top section*/
+.fa::before{
+    font-size: 2em;
+    margin: 10px;
+}
+
 #splash{
     background: #6D7993;
     background-image: url(/Users/Jeremy1/udacity_files/portfolio/images/background.png);
@@ -66,34 +59,48 @@ a{
     background-repeat: no-repeat;
 }
 
-#blog_title{
-    color: inherit;
-}
-
-#content{
-    background: #9099A2;
-}
-#contact{
-    background: #6D7993;
-}
-#intro{
-    margin-top: 30vh;
-}
-#skills{
-    background: #6D7993;
-}
-#nav_logo{
-    height: 50px;
-    margin-right: 10px;
-}
-#social_icons{
+#social-icons{
     display: block;
     text-align: center;
 }
+
+#intro{
+    margin-top: 30vh;
+}
+
 #profile-picture{
     height: 200px;
     width: 200px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+/*portfolio section*/
+#myCarousel{
+    max-width: 1080px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#content{
+    background: #9099A2;
+}
+
+/*blog section */
+#blog-title{
+    color: inherit;
+}
+
+/*contact section*/
+.glyphicon-envelope{
+    color: inherit;
+    font-size: 6em;
+    display: block;
+    text-align: center;
+}
+
+#contact{
+    background: #6D7993;
 }

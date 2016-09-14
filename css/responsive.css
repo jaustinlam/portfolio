@@ -8,23 +8,13 @@ h2{
 h3{
     font-size: 18pt;
 }
-/*classes*/
+/* main top section */
 .fa::before{
     text-align: center;
     font-size: 3em;
     margin: 10px;
 }
-.blog_detail{
-    width: 100%
-}
-.blog_image{
-    display: none;
-}
-#carousel_container{
-    padding: 0;
-}
 
-/*id's*/
 #profile-picture{
     height: 100px;
     width: 100px;
@@ -37,13 +27,27 @@ h3{
     margin-top: 10vh;
 }
 
-#project_description{
-    display: none;
+/*portfolio section */
+#carousel-container{
+    padding: 0;
 }
 
 #myCarousel{
     padding: 0;
     max-width: 300px;
+}
+
+#project-description{
+    display: none;
+}
+
+/* blog section */
+.blog-detail{
+    width: 100%
+}
+
+.blog-image{
+    display: none;
 }
 }
 
@@ -54,16 +58,19 @@ h3{
 h4{
     font-size: 2em;
 }
-/*classes*/
-.blog_image{
+
+/*blog section*/
+.blog-image{
     width: 100%;
 }
-.blog_detail{
+
+.blog-detail{
     font-size: 1.5em;
     width: 66.66%;
     margin-left: 16.667%;
 }
-/*id's*/
+
+/*portfolio section*/
 #myCarousel{
     padding: 0;
     max-width: 768px;
