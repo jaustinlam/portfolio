@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--Meta Tags-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Javascript-->
+    <script src="js/jquery-3.1.0.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <!--FONTS -->
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Scope+One" rel="stylesheet">
+    <!-- CSS Stylesheets -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="10">
+    <!-- Navigation Bar -->
+    <!-- Navigation Header -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <!-- Button on mobile displays -->
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#my_navbar" aria-expanded="false">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!-- Brand logo -->
+                <a href="#"><img id="nav_logo" src="images/logo.svg" alt="JL Web Dev logo"></img></a>
+            </div>
+
+                <!-- Navigation Tabs -->
+                <div class="collapse navbar-collapse" id="my_navbar">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#splash">TOP</a></li>
+                        <li><a href="#content">PROJECTS</a></li>
+                        <li><a href="#blog">BLOG</a></li>
+                        <li><a href="#contact">CONTACT</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="main-body container-fluid">
+        <!--Landing -->
+        <div class="row row100" id="splash">
+            <div class="col-xs-8 col-xs-offset-2" id="intro">
+                <hr>
+                <!-- My intro piece -->
+                <h2> Hello I am Jeremy Lam.<br>
+                    I am a Full Stack WebDeveloper based in Los Angeles, CA. I build responsive websites built with HTML, CSS, Javascript and Python.
+                </h2>
+                <hr>
+            </div>
+            <div class="col-xs-12">
+                <!-- My Profile Picture -->
+                <img class="img-fluid img-circle" id="profile-picture" src="images/profile.jpg" alt="Jeremy Lam profile picture"></img>
+            </div>
+                <!-- Social icons -->
+            <div class="col-xs-12" id="social_icons">
+                <a href="https://www.facebook.com/jaustinlam">
+                    <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                </a>
+                <a href="https://twitter.com/jaustinlam">
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                </a>
+                <a href="https://github.com/jaustinlam">
+                    <i class="fa fa-github" aria-hidden="true"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/jeremy-lam-b882a125">
+                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+        <!--Content-->
+        <div class="row row100" id="content">
+            <!--Projects-->
+            <a name="projectnav"></a>
+            <div class="project col-xs-6 col-xs-offset-3">
+                <hr>
+                <h3>Projects</h3>
+                <p id="project_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <hr>
+            </div>
+
+            <!-- Project Carousel -->
+            <div class="col-xs-12" id="carousel_container">
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                    </ol>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <a href="https://github.com/jaustinlam/movie_website2">
+                            <picture>
+                                <source class="img-responsive" media="(max-width: 550px)" srcset="images/optimized_images/movie_page-small.png">
+                                <source class="img-responsive" media="(max-width: 768px) and (min-width: 551px" srcset="images/optimized_images/movie_page-medium.png">
+                                <img class="img-responsive" src="images/optimized_images/movie_page-large.png" alt="My Movie Trailer Website">
+                            </picture>
+                            <div class="carousel-caption">
+                                <h3>Movie Trailer Website</h3></a>
+                                <p>A website that displays movie posters and their trailers when clicked on.</p>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <picture>
+                                <source class="img-responsive" media="(max-width: 550px)" srcset="http://placehold.it/300x300">
+                                <source class="img-responsive" media="(max-width: 768px) and (min-width: 551px" srcset="http://placehold.it/768x574">
+                                <img class="img-responsive" src="http://placehold.it/1080x808" alt="Project 2">
+                            </picture>
+                            <div class="carousel-caption">
+                                <h3>Project 2</h3>
+                                <p>Coming Soon.</p>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <picture>
+                                <source class="img-responsive" media="(max-width: 550px)" srcset="http://placehold.it/300x224">
+                                <source class="img-responsive" media="(max-width: 768px) and (min-width: 551px" srcset="http://placehold.it/768x574">
+                                <img class="img-responsive" src="http://placehold.it/1080x808" alt="Project 3">
+                            </picture>
+                            <div class="carousel-caption">
+                                <h3>Project 3</h3>
+                                <p>Coming Soon.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Left and right controls -->
+                    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!--Blog-->
+        <div class="row" id="blog">
+            <a name="blog"></a>
+            <div class="blog col-xs-6 col-xs-offset-3">
+                <hr>
+                <h3 id="blog_title">My Blog</h3>
+                <hr>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-3 blog_image">
+                <img class="img-responsive center-block" src="http://placehold.it/200x200" alt="Blog Picture 1">
+            </div>
+            <div class="col-xs-9 blog_detail">
+                <h4>Blog Title 1</h4>
+                <p>01/01/1900</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+        </div>
+        <div class="row">
+            <hr>
+            <div class="col-xs-3 blog_image">
+                <img class="img-responsive center-block" src="http://placehold.it/200x200" alt="Blog picture 2">
+            </div>
+            <div class="col-xs-9 blog_detail">
+                <h4>Blog Title 2</h4>
+                <p>01/01/1900</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+        </div>
+        <div class="row">
+            <hr>
+            <div class="col-xs-3 blog_image">
+                <img class="img-responsive center-block" src="http://placehold.it/200x200" alt="Blog picture 3">
+            </div>
+            <div class="col-xs-9 blog_detail">
+                <h4>Blog Title 3</h4>
+                <p>01/01/1900</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+        </div>
+        <hr>
+
+
+        <!--Contact Me-->
+        <div class="row row50" id="contact">
+            <a name="contactmenav"></a>
+            <div class="contact col-xs-6 col-xs-offset-3">
+                <hr>
+                <h3>Contact Me</h3>
+                <hr>
+            </div>
+            <br>
+            <!-- Email -->
+            <div class="col-xs-6 col-xs-offset-3 icon">
+                <a href="mailto:j.a.lam@me.com">
+                <span class="glyphicon glyphicon-envelope" aria-hidden="true">
+                </span>
+                </a>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,99 @@
+/* Core elements */
+body{
+    font-family: 'Scope One', serif;
+    position: relative;
+}
+h2{
+    font-size: 2em;
+    color: white;
+    text-align: center;
+}
+h3{
+    font-size: 4em;
+    color: white;
+}
+a{
+    color: inherit;
+}
+
+/*Classes*/
+
+.row100{
+    padding-bottom: 20%;
+}
+
+.row50{
+    height: 50%;
+    padding-bottom: 20%;
+}
+
+.project, .contact, .skills, .blog{
+    margin-top: 10%;
+    text-align: center;
+}
+
+.glyphicon-envelope{
+    color: inherit;
+    font-size: 6em;
+    display: block;
+    text-align: center;
+}
+
+#myCarousel{
+    max-width: 1080px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.fa::before{
+    font-size: 2em;
+    margin: 10px;
+}
+
+#nav_logo{
+    height: 50px;
+    margin-right: 10px;
+}
+
+
+/*id's*/
+#splash{
+    background: #6D7993;
+    background-image: url(/Users/Jeremy1/udacity_files/portfolio/images/background.png);
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+#blog_title{
+    color: inherit;
+}
+
+#content{
+    background: #9099A2;
+}
+#contact{
+    background: #6D7993;
+}
+#intro{
+    margin-top: 30vh;
+}
+#skills{
+    background: #6D7993;
+}
+#nav_logo{
+    height: 50px;
+    margin-right: 10px;
+}
+#social_icons{
+    display: block;
+    text-align: center;
+}
+#profile-picture{
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

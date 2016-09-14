@@ -1,0 +1,74 @@
+/* Cell phones*/
+@media screen and (max-width: 550px){
+/*core elements*/
+h2{
+    font-size: 2em;
+}
+
+h3{
+    font-size: 18pt;
+}
+/*classes*/
+.fa::before{
+    text-align: center;
+    font-size: 3em;
+    margin: 10px;
+}
+.blog_detail{
+    width: 100%
+}
+.blog_image{
+    display: none;
+}
+#carousel_container{
+    padding: 0;
+}
+
+/*id's*/
+#profile-picture{
+    height: 100px;
+    width: 100px;
+}
+
+#intro{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-top: 10vh;
+}
+
+#project_description{
+    display: none;
+}
+
+#myCarousel{
+    padding: 0;
+    max-width: 300px;
+}
+}
+
+
+/* Tablets */
+@media screen and (min-width: 551px) and (max-width: 800px){
+/*core elemets*/
+h4{
+    font-size: 2em;
+}
+/*classes*/
+.blog_image{
+    width: 100%;
+}
+.blog_detail{
+    font-size: 1.5em;
+    width: 66.66%;
+    margin-left: 16.667%;
+}
+/*id's*/
+#myCarousel{
+    padding: 0;
+    max-width: 768px;
+}
+}
+
+
+
